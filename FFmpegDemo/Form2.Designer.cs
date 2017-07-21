@@ -44,8 +44,10 @@
             // splitContainerControl1
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerControl1.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.Panel2;
             this.splitContainerControl1.Horizontal = false;
             this.splitContainerControl1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.fFmpegPlayer1);
             this.splitContainerControl1.Panel1.Text = "Panel1";
@@ -57,8 +59,8 @@
             this.splitContainerControl1.Panel2.Controls.Add(this.button2);
             this.splitContainerControl1.Panel2.Controls.Add(this.button1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(681, 523);
-            this.splitContainerControl1.SplitterPosition = 433;
+            this.splitContainerControl1.Size = new System.Drawing.Size(901, 672);
+            this.splitContainerControl1.SplitterPosition = 63;
             this.splitContainerControl1.TabIndex = 0;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
@@ -67,48 +69,54 @@
             this.fFmpegPlayer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.fFmpegPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fFmpegPlayer1.Location = new System.Drawing.Point(0, 0);
+            this.fFmpegPlayer1.Margin = new System.Windows.Forms.Padding(5);
             this.fFmpegPlayer1.Name = "fFmpegPlayer1";
-            this.fFmpegPlayer1.Size = new System.Drawing.Size(681, 433);
+            this.fFmpegPlayer1.Size = new System.Drawing.Size(901, 604);
             this.fFmpegPlayer1.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(259, 57);
+            this.label2.Location = new System.Drawing.Point(345, 35);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 14);
+            this.label2.Size = new System.Drawing.Size(47, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "audio:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(308, 54);
+            this.textBox2.Location = new System.Drawing.Point(410, 33);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(407, 22);
+            this.textBox2.Size = new System.Drawing.Size(470, 26);
             this.textBox2.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(260, 20);
+            this.label1.Location = new System.Drawing.Point(347, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 14);
+            this.label1.Size = new System.Drawing.Size(47, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "video:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(308, 17);
+            this.textBox1.Location = new System.Drawing.Point(411, 3);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(407, 22);
+            this.textBox1.Size = new System.Drawing.Size(469, 26);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "http://hls.live.kksmg.com/live/live24h3/playlist.m3u8";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(179, 14);
+            this.button3.Location = new System.Drawing.Point(239, 5);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 39);
+            this.button3.Size = new System.Drawing.Size(100, 49);
             this.button3.TabIndex = 2;
             this.button3.Text = "视音频分离文件";
             this.button3.UseVisualStyleBackColor = true;
@@ -116,9 +124,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(104, 12);
+            this.button2.Location = new System.Drawing.Point(132, 3);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 41);
+            this.button2.Size = new System.Drawing.Size(105, 51);
             this.button2.TabIndex = 1;
             this.button2.Text = "打开指定路径";
             this.button2.UseVisualStyleBackColor = true;
@@ -126,9 +135,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(27, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 41);
+            this.button1.Size = new System.Drawing.Size(100, 51);
             this.button1.TabIndex = 0;
             this.button1.Text = "选择文件";
             this.button1.UseVisualStyleBackColor = true;
@@ -136,12 +146,13 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 523);
+            this.ClientSize = new System.Drawing.Size(901, 672);
             this.Controls.Add(this.splitContainerControl1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "播放器";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
